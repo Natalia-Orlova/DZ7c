@@ -17,7 +17,6 @@ double[,] CreateMatrixRndDouble(int row, int col, int min, int max)
         {
             matrix[i, j] = Math.Round(rnd.NextDouble() * (max - min) + min, 2, MidpointRounding.ToZero);
         }
-
     }
     return matrix;
 }
